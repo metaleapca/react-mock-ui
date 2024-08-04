@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, html, #root, .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* General styling for the application */
+  .App {
+    display: flex;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar .navigation li {
+    margin: 15px 0;
+  }
+  
+  .sidebar .navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width minus sidebar width */
+    height: 100%;
+  }
+  
+  /* Header bar styling */
+  .header-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: white;
+    box-sizing: border-box;
+    height: 60px;
+  }
+  
+  .header-bar .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-bar .user-profile .profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .header-bar .user-profile .username {
+    margin-right: 10px;
+  }
+  
+  /* Content styling */
+  .content {
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1; /* Allows the content area to grow and fill available space */
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+  }
+  
