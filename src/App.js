@@ -2,7 +2,7 @@ import './styles/index.css';
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import HeaderBar from './components/HeaderBar';
-import Home from './pages/Home2';
+import Home from './pages/Home';
 // import Services from './pages/Services';
 // import CostOverview from './pages/CostOverview';
 // import SavingsPlans from './pages/SavingsPlans';
